@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c82a0693-6dbf-4ad1-ab05-2917815aa7a1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/MethodOverload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrapsWithEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Craps.executor": "Run",
+    "Application.CrapsWithEnum.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
     "Application.MethodOverload.executor": "Run",
     "Application.RollADie.executor": "Run",
@@ -63,10 +63,13 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/alice/IdeaProjects/Chapter6-july-16-2024/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MethodOverload">
+  <component name="RunManager" selected="Application.CrapsWithEnum">
     <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Craps" />
       <module name="Chapter6-july-16-2024" />
@@ -74,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaximumFinder" />
+    <configuration name="CrapsWithEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CrapsWithEnum" />
       <module name="Chapter6-july-16-2024" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrapsWithEnum" />
         <item itemvalue="Application.MethodOverload" />
         <item itemvalue="Application.Craps" />
         <item itemvalue="Application.SecureRandomTestor" />
         <item itemvalue="Application.RollADie" />
-        <item itemvalue="Application.MaximumFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721140905473</updated>
-      <workItem from="1721140906570" duration="14829000" />
+      <workItem from="1721140906570" duration="16206000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -178,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721159712840</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1721165423386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721165423386</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
