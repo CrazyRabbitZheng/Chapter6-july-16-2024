@@ -1,9 +1,9 @@
-import java.security.SecureRandom;
-
 /**
  * This class rolls a 6 sided die 20 times using secureRandom
  * @author--Zheng Wang
  */
+import java.security.SecureRandom;
+
 public class RollADie {
     public static void main(String[] args) {
         SecureRandom random = new SecureRandom();
