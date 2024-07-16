@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c82a0693-6dbf-4ad1-ab05-2917815aa7a1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/RollADie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecureRandomTestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,7 @@
   "keyToString": {
     "Application.MaximumFinder.executor": "Run",
     "Application.RollADie.executor": "Run",
+    "Application.SecureRandomTestor.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -62,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RollADie">
+  <component name="RunManager" selected="Application.SecureRandomTestor">
     <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximumFinder" />
       <module name="Chapter6-july-16-2024" />
@@ -77,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecureRandomTestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SecureRandomTestor" />
+      <module name="Chapter6-july-16-2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecureRandomTestor" />
         <item itemvalue="Application.RollADie" />
         <item itemvalue="Application.MaximumFinder" />
       </list>
@@ -100,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721140905473</updated>
-      <workItem from="1721140906570" duration="8371000" />
+      <workItem from="1721140906570" duration="9307000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -110,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721142900624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1721155007250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721155007250</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1721155063791</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721155063791</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
