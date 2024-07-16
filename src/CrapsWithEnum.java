@@ -1,7 +1,7 @@
 /**
  * This class using enum type to simulate Craps game.
  * !!!!I don't understand enum well.
- * May get bet later.
+ * May get back later.
  *
  */
 import java.security.SecureRandom;
