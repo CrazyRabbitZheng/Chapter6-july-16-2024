@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c82a0693-6dbf-4ad1-ab05-2917815aa7a1" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/SecureRandomTestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Craps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Craps.executor": "Run",
     "Application.MaximumFinder.executor": "Run",
     "Application.RollADie.executor": "Run",
     "Application.SecureRandomTestor.executor": "Run",
@@ -64,7 +65,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SecureRandomTestor">
+  <component name="RunManager" selected="Application.Craps">
+    <configuration name="Craps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Craps" />
+      <module name="Chapter6-july-16-2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaximumFinder" />
       <module name="Chapter6-july-16-2024" />
@@ -88,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Craps" />
         <item itemvalue="Application.SecureRandomTestor" />
         <item itemvalue="Application.RollADie" />
         <item itemvalue="Application.MaximumFinder" />
@@ -110,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1721140905473</updated>
-      <workItem from="1721140906570" duration="9307000" />
+      <workItem from="1721140906570" duration="12001000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -136,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721155063791</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1721156155245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721156155245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +170,15 @@
           <url>file://$PROJECT_DIR$/src/MaximumFinder.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Craps.java</url>
+          <line>14</line>
+          <properties class="Craps" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
