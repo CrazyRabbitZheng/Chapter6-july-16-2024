@@ -1,7 +1,7 @@
 /**
  * This class simulates game Craps
  * Craps rules: one throw your throw 2 dice, sum the 2 numbers you get
- * if your fist throw is 7 or 11, you win
+ * if your first throw is 7 or 11, you win
  * if the first throw is 2, 3, or 12, you lose. the house win
  * the rest sums are called points
  * you throw again, if you got the same sum as your point, you win
