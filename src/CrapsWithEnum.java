@@ -1,11 +1,11 @@
-import java.security.SecureRandom;
-
 /**
  * This class using enum type to simulate Craps game.
  * !!!!I don't understand enum well.
  * May get bet later.
  *
  */
+import java.security.SecureRandom;
+
 public class CrapsWithEnum {
     private static final SecureRandom randomNumbers = new SecureRandom();
 
