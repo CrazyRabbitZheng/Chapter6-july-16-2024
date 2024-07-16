@@ -1,15 +1,37 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+/**
+ * This class takes in three double type inputs
+ * prints the maximum number.
+ * I had an error in maximum method, stating "can't return anything in a void method" -- cause: I typed the method inside of the static main method.
+ * @author--Zheng Wang
+ */
+import java.util.Scanner;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+public class MaximumFinder {
+    public static void main(String[] args) {
+       Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter 3 numbers in type double, separated by space:  ");
+        double firstNumber = in.nextDouble();
+        double secondNumber = in.nextDouble();
+        double thirdNumber = in.nextDouble();
+
+        double result = maximum(firstNumber,secondNumber,thirdNumber);
+
+        System.out.println("The maximum number is " + result);
     }
+
+    public static double maximum(double a, double b, double c){
+        //上面，因为用maximum这个method的时候不用create an object，所以这个method是static
+        //因为用这个method的时候需要return 一个double的值，所以return type是double
+        double max = a;
+
+        if(b > max){
+            max = b;
+        }
+        if(c > max){
+            max = c;
+        }
+        return max;
+    }
+
 }
